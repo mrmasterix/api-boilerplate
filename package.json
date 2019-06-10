@@ -1,0 +1,43 @@
+{
+  "name": "order-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*' -e ts --exec ts-node ./src/index.ts",
+    "test": "jest --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmasterix/order-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrmasterix/order-api/issues"
+  },
+  "homepage": "https://github.com/mrmasterix/order-api#readme",
+  "dependencies": {
+    "dotenv": "8.0.0",
+    "koa": "2.7.0",
+    "koa-body": "4.1.0",
+    "koa-router": "7.4.0",
+    "lodash": "4.17.11",
+    "mongodb": "3.2.7",
+    "nodemon": "1.19.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "6.1.1",
+    "@types/jest": "24.0.13",
+    "@types/koa": "2.0.48",
+    "@types/koa-router": "7.0.40",
+    "@types/lodash": "4.14.134",
+    "cross-env": "5.2.0",
+    "jest": "24.8.0",
+    "supertest": "4.0.2",
+    "ts-jest": "24.0.2",
+    "ts-node": "8.2.0",
+    "typescript": "3.5.1"
+  }
+}

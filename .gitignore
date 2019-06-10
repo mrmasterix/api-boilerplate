@@ -1,0 +1,93 @@
+#############
+## OS detritus
+#############
+
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
+
+##############
+# Editor config
+#
+.brackets.json
+.idea/
+.vscode/
+
+##############
+# Logging
+#
+/logs/
+*.log
+npm-debug.log*
+# migration-logs/migrations-log-*
+.nyc_output/
+
+#
+##############
+# JS client app
+#
+.tmp
+.npm
+bower_components/
+jspm_packages/
+node_modules/
+test.tap
+build/
+dist/
+!tools/build
+
+##############
+# Serverless temp files
+#
+.serverless
+lib/
+dm_db_devlab/
+dm_db_dev/
+
+##############
+# Docs build file
+#
+docs.json
+
+##############
+# Webpack deploy folder
+#
+.webpack
+
+##############
+# Command file that resolvs the issue with inch.js on Windows
+#
+find.cmd
+
+##############
+# Local environment variables
+#
+.env
+.test.env
+
+seed/entityMap.html
+tools/entities/_seed/*
+tools/dumper/dumps/**
+!tools/dumper/external/.gitkeep
+!tools/dumper/dumps/.gitkeep
+!tools/dumper/operation-logs/.gitkeep
+!tools/entities/_seed/.gitkeep
+
+.maintenance-scripts
+
+## Docker db volume
+.db/
+.dumps/
+jenkins-logs
+
+tools/scripts/npm-login/package-lock.json
