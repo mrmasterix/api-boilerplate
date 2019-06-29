@@ -51,8 +51,6 @@ dist/
 #
 .serverless
 lib/
-dm_db_devlab/
-dm_db_dev/
 
 ##############
 # Docs build file
@@ -74,14 +72,6 @@ find.cmd
 #
 .env
 .test.env
-
-seed/entityMap.html
-tools/entities/_seed/*
-tools/dumper/dumps/**
-!tools/dumper/external/.gitkeep
-!tools/dumper/dumps/.gitkeep
-!tools/dumper/operation-logs/.gitkeep
-!tools/entities/_seed/.gitkeep
 
 .maintenance-scripts
 
