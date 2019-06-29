@@ -1,5 +1,5 @@
 {
-  "name": "order-api",
+  "name": "api-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrmasterix/order-api.git"
+    "url": "git+https://github.com/mrmasterix/api-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mrmasterix/order-api/issues"
+    "url": "https://github.com/mrmasterix/api-boilerplate/issues"
   },
-  "homepage": "https://github.com/mrmasterix/order-api#readme",
+  "homepage": "https://github.com/mrmasterix/api-boilerplate#readme",
   "dependencies": {
     "dotenv": "8.0.0",
     "koa": "2.7.0",
@@ -33,6 +33,7 @@
     "@types/koa": "2.0.48",
     "@types/koa-router": "7.0.40",
     "@types/lodash": "4.14.134",
+    "@types/mongodb": "^3.1.28",
     "cross-env": "5.2.0",
     "jest": "24.8.0",
     "supertest": "4.0.2",

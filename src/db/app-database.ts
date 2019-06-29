@@ -1,5 +1,5 @@
-import { MongoClient, Db } from "mongodb";
-import { mongoUrl } from "../config";
+import { MongoClient, Db } from 'mongodb';
+import { mongoUrl, dbName } from "../config";
 
 export class AppDatabase {
   public client: MongoClient;
@@ -7,7 +7,7 @@ export class AppDatabase {
 
   public async connect() {
     this.client = this.client || await MongoClient.connect(mongoUrl, { useNewUrlParser: true })
-    this.database = this.client.db('order_db');
+    this.database = this.client.db(dbName);
     return this.database;
   }
 
